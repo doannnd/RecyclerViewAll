@@ -93,4 +93,12 @@ public class MainActivity extends AppCompatActivity {
         }
         super.onDestroy();
     }
+
+    public void gitTestStatus() {
+        // TODO: Nguyễn Đình Đoàn 12/11/2019 .....
+    }
+
+    public void gitTestTwo() {
+        // FIXME: Nguyeen 12/11/2019
+    }
 }
