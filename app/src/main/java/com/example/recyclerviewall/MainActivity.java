@@ -101,4 +101,6 @@ public class MainActivity extends AppCompatActivity {
     public void gitTestTwo() {
         // FIXME: Nguyeen 12/11/2019
     }
+
+    // master 4
 }
