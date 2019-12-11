@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7 điểm/ 17 bao và ĐH"
+                android:textColor="@android:color/black"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/btn_thao_tac"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/btn_thao_tac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thao tác"
+                android:textSize="14sp"
+                android:textAllCaps="true"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="8dp"
+                android:layout_toLeftOf="@id/iv_arrow"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg_green_coner_4"/>
+
+            <ImageView
+                android:id="@+id/iv_arrow"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:padding="3dp"
+                android:src="@drawable/ic_double_arrow_down"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dfe0e2"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/iv_pin"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_pin"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/tv_tao_tuyen_moi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_pin"
+                android:layout_marginLeft="8dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:text="Tạo tuyến mới"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+
+                android:layout_toRightOf="@id/iv_pin"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/gray_medium"
+                android:layout_below="@id/tv_tao_tuyen_moi"
+                android:text="Thêm các điểm này vào các tuyến có sẵn"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:padding="3dp"
+                android:src="@drawable/ic_right"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dfe0e2"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/iv_add"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_add_popup"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/tv_tao_tuyen_moi_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_add"
+                android:layout_marginLeft="8dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:text="Tạo tuyến mới"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_toRightOf="@id/iv_add"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/gray_medium"
+                android:layout_below="@id/tv_tao_tuyen_moi_1"
+                android:text="Tạo các tuyến mới từ các điểm đã chọn"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:padding="3dp"
+                android:src="@drawable/ic_right"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
